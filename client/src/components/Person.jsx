@@ -52,7 +52,7 @@ const Person = (props) => {
     return (
     <div className="container">
         <div className='navbar'>
-        <h1> Welcome, 
+        <h1> The Great Family Finance Tracker:
             <Link to={`/`}> Home </Link></h1>
         </div><hr />
         

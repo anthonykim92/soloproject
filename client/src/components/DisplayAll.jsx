@@ -49,7 +49,7 @@ const DisplayAll = (props) => {
                 {personList.map((person, index) => {
                   const date = person.date ? new Date(person.date) : null;
                   const formattedDate = date
-  ? date.toLocaleDateString('en-US', { timeZone: "UTC", timeZoneName: 'short' })
+  ? date.toLocaleDateString('en-US', { timeZone: "UTC" })
   : 'No Date Entered';
                   return (
                     <tr key={index}>

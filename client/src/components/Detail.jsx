@@ -51,12 +51,12 @@ const Detail = (props) => {
                             </div>
                     </div>
                     <br />
-                    <div className="form-grou row">
-                        <label className="col-sm-2 col-form-label">Date: </label>
-                            <div className="col-sm-10">
-                            {person.date ? person.date.substring(0, 10) : ""}
-                            </div>
-                    </div>
+                    <div className="form-group row">
+    <label className="col-sm-2 col-form-label">Date: </label>
+    <div className="col-sm-10">
+        {person.date ? new Date(person.date).toISOString().slice(0, 10) : ""}
+    </div>
+</div>
                     <br />
                     <div className="form-group row">
                         <label className="col-sm-2 col-form-label">Price (in dollars): </label>

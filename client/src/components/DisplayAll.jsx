@@ -19,7 +19,7 @@ const DisplayAll = (props) => {
       <div className="navbar">
         <h1>
           The Great Family Finance Tracker: </h1>
-         <Link to={`/api/person`}> New</Link>
+           <Link to={`/api/person`}> New</Link>
         
       </div>
       <div className="container1">
@@ -49,10 +49,8 @@ const DisplayAll = (props) => {
                 {personList.map((person, index) => {
                   const date = person.date ? new Date(person.date) : null;
                   const formattedDate = date
-                    ? date.toLocaleDateString('en-US', {
-                        timeZone: 'America/New_York',
-                      })
-                    : 'No Date Entered';
+  ? date.toLocaleDateString('en-US', { timeZone: "UTC", timeZoneName: 'short' })
+  : 'No Date Entered';
                   return (
                     <tr key={index}>
                       <td>

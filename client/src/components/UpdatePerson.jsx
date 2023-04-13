@@ -63,7 +63,7 @@ const UpdatePerson = (props) => {
         <div className="container">
             <div className='navbar'>
             <h1> Welcome, 
-                <Link to={`/home`}> Home </Link></h1>
+                <Link to={`/`}> Home </Link></h1>
                 
             </div><hr />
             
@@ -118,7 +118,7 @@ const UpdatePerson = (props) => {
             <div className="form-group row">
                 <div className="col-sm-12">
                 <button className="btn btn-dark mx-2" onClick={submitHandler}>Update</button>
-                <Link to={'/home'} className="btn btn-dark mx-2" >Cancel</Link>
+                <Link to={'/'} className="btn btn-dark mx-2" >Cancel</Link>
                 </div>
             </div>
     </form>

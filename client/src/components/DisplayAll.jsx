@@ -19,7 +19,7 @@ const DisplayAll = (props) => {
       <div className="navbar">
         <h1>
           The Great Family Finance Tracker: </h1>
-          <Link to={`/`}> Home </Link> |<Link to={`/api/person`}> New</Link>
+         <Link to={`/api/person`}> New</Link>
         
       </div>
       <div className="container1">

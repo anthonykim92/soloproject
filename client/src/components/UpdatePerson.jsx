@@ -41,7 +41,7 @@ const UpdatePerson = (props) => {
     .then((res)=>{
         console.log(res);
         console.log(res.data);
-        navigate("/home");
+        navigate("/");
         setFirstName("");
         setLastName("");
         setDate("");

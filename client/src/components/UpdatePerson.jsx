@@ -64,9 +64,7 @@ const UpdatePerson = (props) => {
             <div className='navbar'>
             <h1> Welcome, 
                 <Link to={`/home`}> Home </Link></h1>
-                <div className='m1-auto'>
-                    <h1><Link to={'/api/logout'}>Logout</Link></h1>
-                </div>
+                
             </div><hr />
             
             <div className="container1 border border-dark">

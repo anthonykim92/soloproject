@@ -62,7 +62,7 @@ const UpdatePerson = (props) => {
     return (
         <div className="container">
             <div className='navbar'>
-            <h1> Welcome, 
+            <h1> The Great Finance Tracker: 
                 <Link to={`/`}> Home </Link></h1>
                 
             </div><hr />

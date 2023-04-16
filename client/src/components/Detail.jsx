@@ -31,7 +31,7 @@ const Detail = (props) => {
         return (
             <div className="container">
                 <div className='navbar'>
-                <h1> The Great Finance Tracker:
+                <h1> The Great Finance Tracker 
                     <Link to={`/`}> Home </Link></h1>
                 </div><hr />
                 

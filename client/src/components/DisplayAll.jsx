@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TodayDate from './TodayDate';
-
 const DisplayAll = (props) => {
   const [personList, setPersonList] = useState([]);
 
@@ -18,8 +17,8 @@ const DisplayAll = (props) => {
     <div className="container">
       <div className="navbar">
         <h1>
-          The Great Finance Tracker: </h1>
-            <Link to={`/api/person`}> New</Link>
+          The Great Finance Tracker </h1>
+            <Link to={`/api/person`}> Create a New Spending </Link>
         
       </div>
       <div className="container1">
